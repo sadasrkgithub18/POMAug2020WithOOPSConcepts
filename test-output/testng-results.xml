@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="15" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Acti Time Login Suite" duration-ms="45718" started-at="2020-08-22T18:54:52 IST" finished-at="2020-08-22T18:55:38 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="45718" started-at="2020-08-22T18:54:52 IST" finished-at="2020-08-22T18:55:38 IST">
+      <class name="com.naveen.testcases.HomePageTest">
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.naveen.testcases.HomePageTest@6043cd28]" name="beforeTestcaseExecution" is-config="true" duration-ms="100" started-at="2020-08-22T18:55:01 IST" finished-at="2020-08-22T18:55:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.naveen.testcases.HomePageTest.verfiyHomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="verfiyHomePageTitle()[pri:1, instance:com.naveen.testcases.HomePageTest@6043cd28]" name="verfiyHomePageTitle" duration-ms="6602" started-at="2020-08-22T18:55:01 IST" finished-at="2020-08-22T18:55:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verfiyHomePageTitle -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.naveen.testcases.HomePageTest@6043cd28]" name="afterTestCase" is-config="true" duration-ms="123" started-at="2020-08-22T18:55:08 IST" finished-at="2020-08-22T18:55:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verfiyHomePageTitle status=SUCCESS method=HomePageTest.verfiyHomePageTitle()[pri:1, instance:com.naveen.testcases.HomePageTest@6043cd28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.naveen.testcases.HomePageTest@6043cd28]" name="beforeTestcaseExecution" is-config="true" duration-ms="86" started-at="2020-08-22T18:55:08 IST" finished-at="2020-08-22T18:55:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.naveen.testcases.HomePageTest.verifyHomePageHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="verifyHomePageHeader()[pri:2, instance:com.naveen.testcases.HomePageTest@6043cd28]" name="verifyHomePageHeader" duration-ms="6571" started-at="2020-08-22T18:55:08 IST" finished-at="2020-08-22T18:55:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.naveen.testcases.HomePageTest@6043cd28]" name="afterTestCase" is-config="true" duration-ms="107" started-at="2020-08-22T18:55:15 IST" finished-at="2020-08-22T18:55:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageHeader status=SUCCESS method=HomePageTest.verifyHomePageHeader()[pri:2, instance:com.naveen.testcases.HomePageTest@6043cd28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+      </class> <!-- com.naveen.testcases.HomePageTest -->
+      <class name="com.naveen.testcases.LoginTest">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="openBrowser" is-config="true" duration-ms="11113" started-at="2020-08-22T18:54:41 IST" finished-at="2020-08-22T18:54:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="initTCReport()[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="initTCReport" is-config="true" duration-ms="261" started-at="2020-08-22T18:54:52 IST" finished-at="2020-08-22T18:54:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTCReport -->
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="beforeTestcaseExecution" is-config="true" duration-ms="1343" started-at="2020-08-22T18:54:52 IST" finished-at="2020-08-22T18:54:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.naveen.testcases.LoginTest.verifyLoginPageTitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.naveen.testcases.LoginTest@42d8062c]" name="verifyLoginPageTitleTest" duration-ms="25" started-at="2020-08-22T18:54:54 IST" finished-at="2020-08-22T18:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="afterTestCase" is-config="true" duration-ms="178" started-at="2020-08-22T18:54:54 IST" finished-at="2020-08-22T18:54:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageTitleTest status=SUCCESS method=LoginTest.verifyLoginPageTitleTest()[pri:1, instance:com.naveen.testcases.LoginTest@42d8062c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="beforeTestcaseExecution" is-config="true" duration-ms="222" started-at="2020-08-22T18:54:54 IST" finished-at="2020-08-22T18:54:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.naveen.testcases.LoginTest.verifyLoginPageHeaderTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="verifyLoginPageHeaderTest()[pri:2, instance:com.naveen.testcases.LoginTest@42d8062c]" name="verifyLoginPageHeaderTest" duration-ms="56" started-at="2020-08-22T18:54:54 IST" finished-at="2020-08-22T18:54:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageHeaderTest -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="afterTestCase" is-config="true" duration-ms="157" started-at="2020-08-22T18:54:54 IST" finished-at="2020-08-22T18:54:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageHeaderTest status=SUCCESS method=LoginTest.verifyLoginPageHeaderTest()[pri:2, instance:com.naveen.testcases.LoginTest@42d8062c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="beforeTestcaseExecution" is-config="true" duration-ms="154" started-at="2020-08-22T18:54:54 IST" finished-at="2020-08-22T18:54:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.naveen.testcases.LoginTest.doLoginTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:com.naveen.testcases.LoginTest@42d8062c]" name="doLoginTest" duration-ms="6665" started-at="2020-08-22T18:54:54 IST" finished-at="2020-08-22T18:55:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="afterTestCase" is-config="true" duration-ms="115" started-at="2020-08-22T18:55:01 IST" finished-at="2020-08-22T18:55:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=doLoginTest status=SUCCESS method=LoginTest.doLoginTest()[pri:3, instance:com.naveen.testcases.LoginTest@42d8062c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="generateReports" is-config="true" duration-ms="421" started-at="2020-08-22T18:55:37 IST" finished-at="2020-08-22T18:55:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="closeBroswer()[pri:0, instance:com.naveen.testcases.LoginTest@42d8062c]" name="closeBroswer" is-config="true" duration-ms="712" started-at="2020-08-22T18:55:38 IST" finished-at="2020-08-22T18:55:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroswer -->
+      </class> <!-- com.naveen.testcases.LoginTest -->
+      <class name="com.naveen.testcases.ActiveProjectsCustomersTest">
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256]" name="beforeTestcaseExecution" is-config="true" duration-ms="84" started-at="2020-08-22T18:55:15 IST" finished-at="2020-08-22T18:55:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.naveen.testcases.ActiveProjectsCustomersTest.createCustomerTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256]" name="createCustomerTest" duration-ms="11098" started-at="2020-08-22T18:55:15 IST" finished-at="2020-08-22T18:55:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256]" name="afterTestCase" is-config="true" duration-ms="93" started-at="2020-08-22T18:55:26 IST" finished-at="2020-08-22T18:55:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createCustomerTest status=SUCCESS method=ActiveProjectsCustomersTest.createCustomerTest()[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+        <test-method status="PASS" signature="beforeTestcaseExecution(java.lang.reflect.Method)[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256]" name="beforeTestcaseExecution" is-config="true" duration-ms="86" started-at="2020-08-22T18:55:26 IST" finished-at="2020-08-22T18:55:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.naveen.testcases.ActiveProjectsCustomersTest.deleteCustomer()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestcaseExecution -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256]" name="deleteCustomer" duration-ms="11022" started-at="2020-08-22T18:55:26 IST" finished-at="2020-08-22T18:55:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="afterTestCase(org.testng.ITestResult)[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256]" name="afterTestCase" is-config="true" duration-ms="64" started-at="2020-08-22T18:55:37 IST" finished-at="2020-08-22T18:55:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteCustomer status=SUCCESS method=ActiveProjectsCustomersTest.deleteCustomer()[pri:0, instance:com.naveen.testcases.ActiveProjectsCustomersTest@cb51256] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestCase -->
+      </class> <!-- com.naveen.testcases.ActiveProjectsCustomersTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Acti Time Login Suite -->
+</testng-results>
